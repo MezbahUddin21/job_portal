@@ -1,0 +1,12 @@
+vendor
+.git
+.gitignore
+.env
+.env.local
+.env.*.local
+node_modules
+coverage
+tests
+.phpunit.result.cache
+storage/logs/*
+bootstrap/cache/*.php

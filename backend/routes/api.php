@@ -21,6 +21,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// ── Health Check ───────────────────────────────────────────────────────────────
+Route::get('/health', function () {
+    return response()->json(['status' => 'ok', 'timestamp' => now()]);
+});
+
 // ── Public Auth ────────────────────────────────────────────────────────────────
 Route::prefix('auth')->group(function () {
     Route::post('/register', [AuthController::class, 'register']);
