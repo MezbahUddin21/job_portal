@@ -78,7 +78,7 @@ export default function LoginPage() {
             <Link to="/register" className="text-brand-600 font-medium hover:underline">Sign up</Link>
           </p>
 
-          {/* Demo credentials */}
+          {/* Demo credentials
           <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-100">
             <p className="text-xs font-semibold text-gray-500 mb-2">Demo accounts</p>
             <div className="space-y-1 text-xs text-gray-600">
@@ -87,7 +87,7 @@ export default function LoginPage() {
               <p>Candidate: <span className="font-mono">candidate1@jobportal.com</span></p>
               <p className="text-gray-400">All passwords: <span className="font-mono">password</span></p>
             </div>
-          </div>
+          </div> */};
         </div>
       </div>
     </div>
